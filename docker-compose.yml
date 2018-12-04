@@ -1,0 +1,11 @@
+pytorch-jupyter:
+  image: buddhafinger/pytorch-jupyter
+  volumes:
+   - ./workspace:/workspace
+   - ./.jupyter:/root/.jupyter
+  ports:
+   - "8888:8888"
+#  environment:
+#   - NGINX_HOST=localhost
+#   - NGINX_PORT=80
+  command: /bin/bash -c "jupyter-notebook --ip=0.0.0.0 --allow-root"
