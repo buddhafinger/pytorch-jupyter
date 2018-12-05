@@ -53,6 +53,7 @@ Once I created and modified the jupyter config file I then wrapped it with docke
 <b>Tips?</b> Some handy tip(s) below.
 </div>
 
+### Example how to install module to your local instance using anaconda
 import sys
 !conda install --yes --prefix {sys.prefix} numpy
 
