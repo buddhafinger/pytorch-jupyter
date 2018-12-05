@@ -33,7 +33,7 @@ The password is listed in the README.md file in the .jupyter folder - YOU SHOULD
 Persistent data stores setup for exiting and new files that can be modified by the container.
 
 <div class="alert alert-block alert-info">
-<b>Data:</b> How did you make this?
+<b>How did you make this?</b> How did you make this?
 
 I took a copy of the main pytorch image with 'docker pull pytorch/pytorch' 
 
@@ -47,13 +47,11 @@ https://hub.docker.com/r/buddhafinger/pytorch-jupyter/
 Once I created and modified the jupyter config file I then wrapped it with docker-compose.
 
 <div class="alert alert-block alert-info">
-<b>Data:</b> What's next? Maybe extend modules and support in docker container and provide some handy examples.
+<b>What's Next?:</b> Maybe extend modules and support in docker container and provide some handy examples.
 
 <div class="alert alert-block alert-info">
-<b>Tips?</b> Somevhandy tip(s) below.
+<b>Tips?</b> Some handy tip(s) below.
 </div>
-
-
 
 import sys
 !conda install --yes --prefix {sys.prefix} numpy
