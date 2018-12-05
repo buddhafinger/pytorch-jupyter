@@ -58,3 +58,6 @@ import sys
 !conda install --yes --prefix {sys.prefix} numpy
 
 #Note - The modules will exist as long as the container does, if you delete the container (not the image) you lose the updated modules, to get around this you can write docker changes to your local image. You can google how to that.
+
+### Download Jupyter tutorials for pytorch here!
+https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html
