@@ -5,7 +5,11 @@
 <b>What is this?:</b> A quick hash of pytorch docker container that I modified to include jupyter. Make sure to read through to the bottom for tips section.
 </div>
 
-To use this neat little bundle of love..
+#### Requires
+A working installation of Docker Engine with Docker Compose.
+
+
+To use this neat little bundle of love.. (run commands from the project directory.)
 
 #### to start
 'docker-compose up'
