@@ -59,5 +59,15 @@ import sys
 
 #Note - The modules will exist as long as the container does, if you delete the container (not the image) you lose the updated modules, to get around this you can write docker changes to your local image. You can google how to that.
 
-### Download Jupyter tutorials for pytorch here!
+
+### Jupyter setup tutorial - A nice walkthrough by Corey Schafer 
+https://www.youtube.com/watch?v=HW29067qVWk
+
+### Pytorch in 5 minutes - shout out to the legend Siraj Raval
+https://www.youtube.com/watch?v=nbJ-2G2GXL0&vl=en
+
+### Pytorch Chatbot tutorial
+https://pytorch.org/tutorials/beginner/chatbot_tutorial.html
+
+### Download more Jupyter tutorials for pytorch here!
 https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html
